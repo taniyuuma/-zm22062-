@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>サンリオキャラクター人気投票</title>
+<link rel ="stylesheet" href="mystyle.css">
+<script src ="myjs.js"></script> 
+</head>
+<body>
+<h1>⁺♡サンリオキャラクタ－人気投票♡⁺</h1>
+<h2>-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・</h2>
+<h2>♡</h2>
+<h2>♡</h2>
+<h2>☆キャラクター紹介☆</h2>
+<h3>エントリーNO.1　ハローキティ</h3>
+<h3>エントリーNO.2　マイメロディ</h3>
+<h3>エントリーNO.3　リトルツインスターズ</h3>
+<h3>エントリーNO.4　シナモロール</h3>
+<h3>エントリーNO.5　ポムポムプリン</h3>
+<h3>エントリーNO.6　クロミ</h3>
+<h3>エントリーNO.7　こぎみゅん</h3>
+<h3>エントリーNO.8　シュガーバニーズ</h3>
+<h3>エントリーNO.9　チャーミーキティ</h3>
+<h2>-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・</h2>
+<h2>☆キャラクタ－プロフィール☆</h2>
+<h3>キャラクターをクリックするとプロフィールを見ることができるよ！</h3>
+<a href="https://www.sanrio.co.jp/character/hellokitty/"><img src="./image/hellokitty.png" alt= "ハローキティ"></a>
+<a href="https://www.sanrio.co.jp/character/mymelody/"><img src="./image/mymelody.png" alt= "マイメロディ"></a>
+<a href="https://www.sanrio.co.jp/character/kikilala/"><img src="./image/kikilala.png" alt= "リトルツインスターズ"></a>
+<a href="https://www.sanrio.co.jp/character/cinnamon/"><img src="./image/cinnamoroll.png" alt= "シナモロール"></a>
+<a href="https://www.sanrio.co.jp/character/pompompurin/"><img src="./image/pompompurin.png" alt= "ポムポムプリン"></a>
+<a href="https://www.sanrio.co.jp/character/kuromi/"><img src="./image/kuromi.png" alt= "クロミ"></a>
+<a href="https://www.sanrio.co.jp/character/cogimyun/"><img src="./image/cogimyun.png" alt= "こぎみゅん"></a>
+<a href="https://www.sanrio.co.jp/character/sugarbunnies/"><img src="./image/sugarbunnies.png" alt= "シュガーバニーズ"></a>
+<a href="https://www.sanrio.co.jp/character/charmmy/"><img src="./image/charmmykitty.png" alt= "チャーミーキティ"></a>
+
+<h3><a href="a.html">参考：キャラクター大賞2021の順位</a><br></h3>
+<h2>-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・-・</h2>
+<h2>☆投票はこちら☆</h2>
+<p><label>ニックネーム：<input type="text" name="name" size="30" maxlength ="20"></label></p>
+<p> 年齢：
+<label><input type="radio" name="nennrei" value="1">10代 </label>
+<label><input type="radio" name="nennrei" value="2">20代 </label>
+<label><input type="radio" name="nennrei" value="3">30代 </label>
+<label><input type="radio" name="nennrei" value="4">40代 </label>
+<label><input type="radio" name="nennrei" value="5">50代 </label>
+<label><input type="radio" name="nennrei" value="6">60代以上 </label>
+</p>
+<p> 好きなキャラクター：
+<label><input type="checkbox" name="character"  value="hellolitty">ハローキティ</label>
+<label><input type="checkbox" name="character"  value="mymelody">マイメロディ</label>
+<label><input type="checkbox" name="character"  value="kikilala">リトルツインスターズ</label>
+<label><input type="checkbox" name="character"  value="cinnamoroll">シナモロール</label>
+<label><input type="checkbox" name="character"  value="pompompurin">ポムポムプリン</label>
+<label><input type="checkbox" name="character"  value="kuromi">クロミ</label>
+<label><input type="checkbox" name="character"  value="cogimyun">こぎみゅん</label>
+<label><input type="checkbox" name="character"  value="sugarbunnies">シュガーバニーズ</label>
+<label><input type="checkbox" name="character"  value="charmykitty">チャーミーキティ</label>
+<p>
+<label>キャラクターへのメッセージ：<input type="password" name="pass" size="6" maxlength ="4"></label>
+</p>
+
+<input type="submit" value="送信">
+<input type="reset" value="リセット">
+
+
+
+
+<a href="mailto:zm18067@josai.ac.jp">お問い合わせ</a><br>
+</body>
+</html>
